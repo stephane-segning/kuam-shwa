@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import { z } from 'zod';
 import { render } from '@react-email/render';
-import ContactFormEmail from '@/emails/ContactFormEmail';
+import { ContactFormEmail } from '@/emails/contact-form-email';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters.'),

@@ -1,3 +1,4 @@
 - use daisyui classes only
 - if the task cannot be done otherwise, then use tailwindcss
 - use tailwind-merge (install it if not present)
+- use flex mostly

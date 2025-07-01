@@ -1,0 +1,5 @@
+- use kebab case for file
+- export default only pages. All of the rest shall use simple export
+- use function components, not anonymous functions
+- this project uses yarn
+- import icons from react-feather

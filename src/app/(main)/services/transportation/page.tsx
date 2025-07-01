@@ -1,4 +1,4 @@
-import ServiceGrid from "@/components/services/ServiceGrid";
+import { ServiceGrid } from "@/components/services/service-grid";
 
 export default function Transportation() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Mail, MapPin, PhoneCall} from "react-feather";
 
-const GetInTouch: React.FC = () => {
+export const GetInTouch: React.FC = () => {
     return (
         <section className="py-16 px-4 sm:px-6 lg:px-8">
             <div className="mx-auto">
@@ -52,5 +52,3 @@ const GetInTouch: React.FC = () => {
         </section>
     );
 };
-
-export default GetInTouch;

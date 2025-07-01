@@ -23,7 +23,7 @@ export function Navbar() {
             <div
                 className='transition delay-150 duration-300  app-container  md:py-4 ease-in-out'>
                 <nav
-                    className='navbar md:bg-base-200/30 md:rounded-2xl md:border backdrop-blur-sm px-4'>
+                    className='navbar md:bg-base-200/30 md:rounded-2xl md:border backdrop-blur-md px-4'>
                     <div className="navbar-start">
                         <Logo/>
                     </div>
@@ -37,7 +37,7 @@ export function Navbar() {
                                 </Link>
                             ))}
 
-                            <Link href="#contact" className='btn btn-soft btn-primary'>
+                            <Link href="#contact" className='btn btn-primary'>
                                 Contact
                             </Link>
                         </div>

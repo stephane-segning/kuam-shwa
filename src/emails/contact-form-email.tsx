@@ -58,5 +58,3 @@ export const ContactFormEmail: React.FC<Readonly<ContactFormEmailProps>> = ({
     </Body>
   </Html>
 );
-
-export default ContactFormEmail;

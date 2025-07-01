@@ -1,11 +1,11 @@
 import React from "react";
-import ServiceCard, { ServiceCardProps } from "./ServiceCard";
+import { ServiceCard, ServiceCardProps } from "./service-card";
 
 export interface ServiceGridProps {
   options: ServiceCardProps[];
 }
 
-const ServiceGrid: React.FC<ServiceGridProps> = ({ options }) => (
+export const ServiceGrid: React.FC<ServiceGridProps> = ({ options }) => (
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
     {options.map((option, index) => (
       <ServiceCard
@@ -17,5 +17,3 @@ const ServiceGrid: React.FC<ServiceGridProps> = ({ options }) => (
     ))}
   </div>
 );
-
-export default ServiceGrid;

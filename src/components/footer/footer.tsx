@@ -1,5 +1,5 @@
-import ContactForm from "@/components/contact/ContactForm";
-import GetInTouch from "@/components/contact/GetInTouch";
+import { ContactForm } from "@/components/contact/contact-form";
+import { GetInTouch } from "@/components/contact/get-in-touch";
 import {Logo} from "@/components/site/logo";
 import {Facebook, Twitter, Youtube} from "react-feather";
 
