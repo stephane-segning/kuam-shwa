@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: lemonade --default;
+}
+
+.app-container {
+    @apply container mx-auto md:px-4 max-w-7xl!;
+}
