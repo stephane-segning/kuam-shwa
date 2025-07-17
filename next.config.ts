@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
+import withMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["via.placeholder.com"],
+  },
 };
 
-export default nextConfig;
+export default withMDX({
+  extension: /\.mdx?$/,
+})(nextConfig);
