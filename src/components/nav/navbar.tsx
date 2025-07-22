@@ -21,11 +21,7 @@ const menuItems = [
         label: "Poultry Infrastructure",
         href: "/services/poultry-infra",
     },
-
-    {
-        label: "Transportation",
-        href: "/services/transportation",
-    },
+    
 ]
 
 export function Navbar() {
