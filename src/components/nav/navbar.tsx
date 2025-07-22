@@ -11,6 +11,17 @@ const menuItems = [
         label: "Agriculture",
         href: "/services/agriculture",
     },
+
+    {
+        label: "Logistics",
+        href: "/services/logistics",
+    },
+
+    {
+        label: "Poultry Infrastructure",
+        href: "/services/poultry-infra",
+    },
+
     {
         label: "Transportation",
         href: "/services/transportation",
@@ -29,15 +40,15 @@ export function Navbar() {
                     </div>
                     <div className="navbar-center"/>
                     <div className="navbar-end">
-                        <div className='flex items-center justify-between gap-4'>
+                        <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
                             {menuItems.map((item) => (
                                 <Link key={item.label} href={item.href}
-                                      className='transition btn btn-accent btn-ghost hidden md:flex px-2'>
+                                      className='transition btn btn-accent btn-ghost hidden md:flex px-1 lg:px-2 text-xs lg:text-sm whitespace-nowrap'>
                                     {item.label}
                                 </Link>
                             ))}
 
-                            <Link href="#contact" className='btn btn-primary'>
+                            <Link href="#contact" className='btn btn-primary text-xs lg:text-sm px-2 lg:px-4'>
                                 Contact
                             </Link>
                         </div>
